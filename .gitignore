@@ -1,0 +1,49 @@
+# Node.js Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment Variables
+.env
+.env.local
+
+# SQLite Database Files
+*.sqlite
+*.sqlite3
+
+# PostgreSQL Dumps
+*.sql
+
+# Logs
+logs/
+*.log
+log/
+
+# Cache
+.cache/
+
+# Editor/IDE Specific Files
+.vscode/
+.idea/
+.DS_Store
+
+# Build Outputs
+dist/
+
+# Testing
+coverage/
+
+# Temporary Files
+*.tmp
+*.swp
+
+# Deployment
+*.bak
+*.orig
+
+# Ignore local env and config
+local.json
+config/local.js
+
+# Miscellaneous
+*.lock
