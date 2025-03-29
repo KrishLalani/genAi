@@ -78,7 +78,7 @@ npm start
 #### 🔐 Generate JWT Token
 
 ```http
-POST /api/auth/token
+POST /api/getToken
 ```
 
 _Response:_
@@ -215,8 +215,5 @@ curl -X POST http://localhost:3000/api/validate \n    -H "Authorization: Bearer 
 ## 🤝 Contribution
 
 Feel free to fork, open issues, and submit PRs!
-
-## 📜 License
-
-MIT License.
+KRISH LALANI
 
