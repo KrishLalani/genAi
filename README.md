@@ -181,19 +181,19 @@ _Response:_
 ### Generate Token
 
 ```bash
-curl -X POST http://localhost:3000/api/auth/token
+curl -X POST https://genai-mvjt.onrender.com/api/Token
 ```
 
 ### Execute Query
 
 ```bash
-curl -X POST http://localhost:3000/api/query \n    -H "Authorization: Bearer your.jwt.token" \n    -H "Content-Type: application/json" \n    -d '{"query": "Total sales in Q1"}'
+curl -X POST https://genai-mvjt.onrender.com/api/query \n    -H "Authorization: Bearer your.jwt.token" \n    -H "Content-Type: application/json" \n    -d '{"query": "Total sales in Q1"}'
 ```
 
 ### Validate Query
 
 ```bash
-curl -X POST http://localhost:3000/api/validate \n    -H "Authorization: Bearer your.jwt.token" \n    -H "Content-Type: application/json" \n    -d '{"query": "Transactions by Alice"}'
+curl -X POST https://genai-mvjt.onrender.com/api/validate \n    -H "Authorization: Bearer your.jwt.token" \n    -H "Content-Type: application/json" \n    -d '{"query": "Transactions by Alice"}'
 ```
 
 ---
